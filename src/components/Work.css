@@ -1,0 +1,39 @@
+.Work {
+    width: 100%;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.Work .Container {
+    width: 1240px;
+    margin: 4rem auto;
+    padding: 4rem 0rem;
+}
+
+.Work h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.Work .Container .Content {
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-gap: 10%;
+    margin: 4rem 0;
+}
+
+@media screen and (max-width: 940px) {
+
+    .Work {
+        margin-bottom: 20rem;
+    }
+
+    .Work .Container {
+        width: 100%;
+    }
+
+    .Work .Container .Content {
+        grid-template-columns: 1fr;
+        grid-gap: 5% 5%;
+    }
+    
+}

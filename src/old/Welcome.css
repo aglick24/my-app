@@ -1,0 +1,57 @@
+.Welcome {
+  background: url('./images/BigSur.jpeg') fixed;
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.Invitation {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 5%;
+  color: rgb(16, 63, 110);
+  background-color: rgb(226, 236, 246, 0.6);
+  font-family: "Hoefler Text", "Helvetica", sans-serif;
+}
+
+.InvitationWrapper{
+  text-align: left;
+  display: inline-block;
+  width: 40%;
+  padding: 10vh;
+  right: 0vh;
+  bottom: 0vh;
+  position: fixed;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .Boulder-cw {
+    animation: Boulder-spin-cw infinite 2s ease-in-out;
+  }
+  .Boulder-ccw {
+    animation: Boulder-spin-ccw infinite 5s ease-in;
+  }
+}
+
+@keyframes Boulder-spin-cw {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes Boulder-spin-ccw {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}

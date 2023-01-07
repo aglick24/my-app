@@ -1,0 +1,53 @@
+.Card {
+    border: 1px solid #eee;
+    box-shadow: 15px 40px 15px var(--primary-color);
+    padding: 1rem;
+}
+
+.Card p {
+    color: var(--secondary-dark);
+    font-size: 1.2rem;
+    margin: 12px;
+}
+
+.Card img {
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid var(--primary-dark);
+    border-radius: 25%;
+}
+
+.Card .Icon {
+    background-color: white;
+    border-radius: 25%;
+    height: 8rem;
+    width: 8rem;
+    color: var(--primary-dark);
+    border: 1px solid var(--primary-dark);
+    text-align: center;
+}
+
+.Card .Pic {
+    margin-top: -4rem;
+    margin-left: 1rem;
+    display: flex;
+}
+
+.Card span {
+    color: var(--primary-dark);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.Card:hover {
+    background-color: var(--primary-color-translucent);
+    border: 1px solid var(--primary-color-translucent);
+}
+
+@media screen and (max-width: 940px) {
+    .Card {
+        max-width: 100%;
+        margin: 1rem;
+        box-shadow: 10px 30px 15px var(--primary-color);
+    }
+}

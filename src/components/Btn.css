@@ -1,0 +1,99 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 24px;
+}
+
+.Btn-n {
+    z-index: 998;
+    width: 300px;
+    height: 200px;
+    border: 0;
+}
+
+.Btn-w,
+.Btn-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 998;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+.Btn-w a,
+.Btn-b a {
+    text-decoration: none;
+    border: var(--thickness) solid var(--primary-dark);
+    padding: 15px;
+    color: var(--primary-dark);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+  
+span {
+    position: relative;
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
+}
+  
+.Btn-w a::before,
+.Btn-b a::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -2px;
+    width: calc(100% + 6px);
+    height: calc(100% - 10px);
+    transition: all 0.25s ease-in-out;
+    transform: scaleY(0);
+}
+  
+.Btn-w a:hover::before,
+.Btn-b a:hover::before {
+    transform: scaleY(1);
+}
+  
+.Btn-w a::after,
+.Btn-b a::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: -5px;
+    width: calc(100% - 10px);
+    height: calc(100% + 10px);
+    transition: all 0.25s ease-in-out;
+    transform: scaleX(0);
+}
+  
+.Btn-w a:hover::after,
+.Btn-b a:hover::after {
+    transform: scaleX(1);
+}
+
+.Btn-w a::before {
+    background-color: var(--translucent-white);
+}
+
+.Btn-w a::after {
+    background-color: var(--translucent-white);
+}
+
+.Btn-b a::before {
+    background-color: var(--primary-color-translucent);
+}
+
+.Btn-b a::after {
+    background-color: var(--primary-color-translucent);
+}
