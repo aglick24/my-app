@@ -6,7 +6,7 @@ const ClickListCard = ({title, content, link}:
     {title: string, content: ReactElement<any, any>, link: string}) => {
   return (
     <div className='ClickListCard'>
-        <a href={link} target="_blank" rel="noopener">
+        <a href={link} target="_blank" rel="noreferrer">
             <ListCard title={title} content={content}/>
         </a>
     </div>

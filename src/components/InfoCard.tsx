@@ -13,7 +13,7 @@ const InfoCard = ({image, alt, title, content, link=undefined}:
     {content}
   </>
 
-  return (link ? <a href={link} target="_blank" rel="noopener" className='InfoCard Linked'>{Card}</a> : <div className='InfoCard'>{Card}</div>)
+  return (link ? <a href={link} target="_blank" rel="noreferrer" className='InfoCard Linked'>{Card}</a> : <div className='InfoCard'>{Card}</div>)
 }
 
 export default InfoCard
