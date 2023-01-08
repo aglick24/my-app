@@ -37,3 +37,16 @@
 .Line {
     margin-bottom: 1rem;
 }
+
+@media screen and (max-width:940px) {
+    
+    .Footer {
+        max-width: 100%;
+    }
+
+    .Footer ul {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
