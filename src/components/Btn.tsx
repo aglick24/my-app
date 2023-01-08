@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Btn.css'
 
 const Btn = ({ content, to, color }: {content: string, to: string, color: string}) => {    

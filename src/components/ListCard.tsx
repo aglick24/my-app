@@ -10,7 +10,7 @@ const ListCard = ({title, content, link=undefined}:
       <p className='Title'><span>{title}</span></p>
       {content}
     </>)
-  return (link ? <a href={link} target="_blank" className='ListCard Linked'>{Card}</a> : <div className='ListCard'>{Card}</div>)
+  return (link ? <a href={link} target="_blank" rel="noopener" className='ListCard Linked'>{Card}</a> : <div className='ListCard'>{Card}</div>)
 }
 
 export default ListCard
