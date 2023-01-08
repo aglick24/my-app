@@ -7,7 +7,7 @@ import * as FaIcons from 'react-icons/fa';
 
 const Work = () => {
   return (
-    <div className='Work' id='Work'>
+    <div className='Work' id='work'>
         <div className='Container'>
             <h2>My Work Experience</h2>
             <span className='Line'></span>
