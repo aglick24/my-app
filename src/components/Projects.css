@@ -4,12 +4,12 @@
     height: 100%;
     font-family: 'Courier New', Courier, monospace;
     font-style: bold;
+    margin: 4rem 0;
 }
 
 .Projects .Container {
     width: 90%;
-    margin: 3% auto;
-    padding-bottom: 1rem;
+    margin: 0 auto;
 }
 
 .Projects h2 {
@@ -22,7 +22,6 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10%;
-    margin: 4rem 0;
 }
 
 .Projects .Line {

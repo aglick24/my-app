@@ -1,6 +1,8 @@
 .ListCard {
     border: 1px solid var(--primary-dark);
     padding: 1rem;
+    margin-top:1rem;
+    min-height: 200px;
 }
 
 .ListCard p {
