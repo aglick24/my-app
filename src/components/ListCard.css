@@ -1,0 +1,56 @@
+.ListCard {
+    border: 1px solid var(--primary-dark);
+    padding: 1rem;
+}
+
+.ListCard p {
+    color: var(--secondary-dark);
+    font-size: 1.2rem;
+    margin: 12px;
+}
+
+.ListCard img {
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid var(--primary-dark);
+    border-radius: 25%;
+}
+
+.ListCard span {
+    color: var(--primary-dark);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.ListCard.Linked:hover {
+    background-color: var(--primary-dark-translucent);
+    border: 1px solid var(--primary-dark-translucent);
+}
+
+.ListCard.Linked:hover p,
+.ListCard.Linked:hover span {
+    color: white;
+    font-size: 24px;
+}
+
+.ListCard .Line {
+    align-content: left;
+    padding: 0% 50%;
+    background-color: var(--primary-dark-translucent);
+}
+
+@media screen and (max-width: 940px) {
+    .ListCard {
+        max-width: 100%;
+        margin: 1rem;
+        box-shadow: 10px 30px 15px var(--primary-color);
+    }
+
+    .ListCard p {
+        text-align: left;
+    }
+
+    .ListCard .Title {
+        text-align: center;
+    }
+}

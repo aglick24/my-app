@@ -5,7 +5,7 @@ import Btn from './Btn'
 
 const About = () => {
     return (
-        <div className='About' id='About'>
+        <div className='About' id='about'>
             <div className='Container'>
                 <div className='Col-1'>
                     <img src={nbaYoungBoy} alt='nbaYoungBoy' className='AboutPic'/>
@@ -21,10 +21,10 @@ const About = () => {
                             <li>I am very ginger.</li>
                             <li>I just had a Led Zeppelin pinky ring made, and it rocks.</li>
                         </ul>
-                        <p>In middle and high school, I was supremely interested in politics, and I worked as an intern on a congressional campaign that flipped NY-11 blue in 2018 in addition to other political involvements.</p>
-                        <p>So as I moved toward college, I thought that Public Policy would be my calling, but my itch to code grew...</p>
+                        <p>As an elementary school-aged child, my mind was quite oriented towards math; however, as I grew older, I became increasingly interested by history and government. In middle and high school, I became involved in politics and worked as an intern on a congressional campaign that flipped NY-11 blue in 2018 in addition to other political work.</p>
+                        <p>So as I moved toward college, I thought that Public Policy would be my calling, but I had an itch to get back to the computational...</p>
                     </div>
-                    <Btn content={"What happened next?!"} to={"#Change"} color={"b"}/>
+                    <Btn content={"What happened next?!"} to={"#change"} color={"b"}/>
                 </div>
             </div>
         </div>

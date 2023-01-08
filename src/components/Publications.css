@@ -1,0 +1,58 @@
+.Publications {
+    width: 100%;
+    padding: 1rem 1rem 0 1rem;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+}
+
+.Publications .Container {
+    width: 90%;
+    margin: 3% auto;
+    padding-bottom: 1rem;
+    /* background-color: red; */
+}
+
+.Publications h2 {
+    font-size: 3rem;
+    text-align: left;
+    padding: 2% 0;
+}
+
+.Publications .Container .Content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10%;
+    margin: 4rem 0;
+}
+
+.Publications .Line {
+    margin: auto 0;
+    padding-left: 10%;
+    background-color: var(--primary-dark-translucent);
+}
+
+@media screen and (max-width: 940px) {
+
+    .Publications {
+        margin-bottom: 10rem;
+    }
+
+    .Publications h2 {
+        text-align: center;
+    }
+
+    .Publications .Line {
+        margin: auto;
+    }
+
+    .Publications .Container {
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+    .Publications .Container .Content {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5% 5%;
+    }
+}

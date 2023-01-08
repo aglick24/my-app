@@ -63,7 +63,7 @@
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        margin:auto;
+        margin: auto;
     }
 
     .About .Container .Col-1 {
@@ -79,6 +79,7 @@
     .About .Container .Col-2 {
         padding-top: 1%;
         width: 100%;
+        margin: 4rem auto;
     }
 
     .About button {

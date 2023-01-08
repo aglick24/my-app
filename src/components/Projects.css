@@ -1,0 +1,58 @@
+.Projects {
+    width: 100%;
+    padding: 1rem 1rem 0 1rem;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+}
+
+.Projects .Container {
+    width: 90%;
+    margin: 3% auto;
+    padding-bottom: 1rem;
+}
+
+.Projects h2 {
+    font-size: 3rem;
+    text-align: left;
+    padding: 2% 0;
+}
+
+.Projects .Container .Content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10%;
+    margin: 4rem 0;
+}
+
+.Projects .Line {
+    margin: auto 0;
+    padding-left: 10%;
+    background-color: var(--primary-dark-translucent);
+}
+
+@media screen and (max-width: 940px) {
+
+    .Projects {
+        margin-bottom: 10rem;
+    }
+
+    .Projects h2 {
+        text-align: center;
+    }
+
+    .Projects .Line {
+        margin: auto;
+    }
+
+    .Projects .Container {
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+    .Projects .Container .Content {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5% 5%;
+    }
+    
+}

@@ -16,7 +16,7 @@
 
 .Work .Container .Content {
     display: grid;
-    grid-template-columns: repeat(2,2fr);
+    grid-template-columns: repeat(2,1fr);
     grid-gap: 10%;
     margin: 4rem 0;
 }
@@ -24,7 +24,7 @@
 @media screen and (max-width: 940px) {
 
     .Work {
-        margin-bottom: 20rem;
+        margin-bottom: 10rem;
     }
 
     .Work .Container {

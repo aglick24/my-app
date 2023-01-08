@@ -68,6 +68,11 @@
 }
 
 @media screen and (max-width: 1400px) {
+
+    .Change {
+        margin: 0 auto;
+    }
+
     .Change .Container {
         max-width: 100%;
         grid-template-columns: 1fr;

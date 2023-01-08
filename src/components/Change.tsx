@@ -5,7 +5,7 @@ import './Change.css'
 
 const Change = () => {
     return (
-        <div className='Change' id='Change'>
+        <div className='Change' id='change'>
             <h2><span>A change</span></h2>
             <div className='Container'>
                 <div className='Col-1'>

@@ -29,12 +29,11 @@
 
 .Hero .Content {
     padding: 0.5rem;
-    /* border: var(--thickness) solid var(--primary-dark); */
     justify-content: center;
     color: var(--primary-dark);
     background-color: var(--primary-color-translucent);
     display: inline-block;
-    font-size: 72px;
+    font-size: 60px;
     padding: 2.5% 5%;
 }
 
@@ -53,14 +52,5 @@
 @media screen and (max-width: 1140px) {
     .Hero .Content {
         font-size: 36px;
-    }
-}
-
-@media screen and (max-height: 820px) {
-    .Hero .Content p:nth-child(3) {
-        font-size: 2.6rem;
-    }
-    .Hero .Content p:nth-child(4) {
-        font-size: 1.6rem;
     }
 }
