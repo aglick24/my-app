@@ -5,6 +5,10 @@
     min-height: 200px;
 }
 
+.ListCard .Title {
+    text-align: left;
+}
+
 .ListCard p {
     color: var(--secondary-dark);
     font-size: 1.2rem;
