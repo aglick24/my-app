@@ -11,6 +11,7 @@
 
 .ListCard p {
     color: var(--primary-dark);
+    font-weight: bold;
     font-size: 1.2rem;
     margin: 12px;
 }
@@ -26,11 +27,16 @@
     border: 1px solid var(--primary-dark-translucent);
 }
 
-.ListCard.Linked:hover p,
-.ListCard.Linked:hover span {
+.ListCard.Linked:hover p{
     color: #eee;
     font-size: 24px;
 }
+
+.ListCard.Linked:hover span {
+    color: #eee;
+    font-size: 30px;
+}
+
 .ListCard .Line {
     align-content: left;
     padding: 0% 50%;

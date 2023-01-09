@@ -2,12 +2,25 @@
     border: 1px solid #eee;
     box-shadow: 15px 40px 15px var(--primary-dark-translucent);
     padding: 1rem;
+    font-weight: bold;
 }
 
-.InfoCard p {
-    color: var(--primary-dark);
-    font-size: 1rem;
+.InfoCard li {
+    font-size: 1.2rem;
     margin: 12px;
+    font-weight: bold;
+}
+
+.InfoCard a {
+    color: var(--primary-dark);
+}
+
+.InfoCard li a:hover {
+    font-weight: bolder;
+}
+
+.InfoCard ul {
+    padding: 2%;
 }
 
 .InfoCard img {
@@ -35,7 +48,7 @@
 
 .InfoCard span {
     color: var(--primary-dark);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
