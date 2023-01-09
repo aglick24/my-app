@@ -16,7 +16,7 @@ const About = () => {
                         <h4>Alex Glick</h4>
                         <p>I am from Manhasset, NY, and I am now a senior at Duke, obtaining a <i>B.S.</i> in Computer Science and Public Policy.</p>
                         <p>In middle and high school, I became involved in politics and worked as an intern on a congressional campaign that flipped NY-11 blue in 2018 in addition to other political work. By the end of high school and beginning of college, my interest grew, from CS being a prospective minor to it being my first major.</p>
-                        <p>So as I moved toward college, I thought that Public Policy would be my calling, but I had an itch to get back to the computational...</p>
+                        <p>This has led to a winding career path. I have been able to succeed in such a non-traditional route due to my ability to easily pick up new skills, my interdisciplinary avenue of study and willingness to collaborate with coworkers. Through this work, I've learned numerous technical skills and am proficient in Java, Python, Typescript, now ReactJS(!), and more, while also conceptually learning how my projects function and being able to clearly communicate these ideas.</p>
                     </div>
                 </div>
             </div>
