@@ -10,19 +10,19 @@ const Footer = () => {
                         <a href='/'>Home</a>
                     </li>
                     <li className='Nav-item'>
+                        <a href='#work'>Work</a>
+                    </li>
+                    <li className='Nav-item'>
+                        <a href='#projects'>Projects</a>
+                    </li>
+                    <li className='Nav-item'>
+                        <a href='#publications'>Publications</a>
+                    </li>
+                    <li className='Nav-item'>
                         <a href='#about'>About</a>
                     </li>
                     <li className='Nav-item'>
-                        <a href='#change'>A change</a>
-                    </li>
-                    <li className='Nav-item'>
-                        <a href='#work'>My work</a>
-                    </li>
-                    <li className='Nav-item'>
-                        <a href='#projects'>My projects</a>
-                    </li>
-                    <li className='Nav-item'>
-                        <a href='#publications'>My publications</a>
+                        <a href='#contact'>Contact + Info</a>
                     </li>
                 </ul>
                 <div className='Bottom'>

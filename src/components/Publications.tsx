@@ -14,7 +14,7 @@ const Publications = () => {
                 link={'https://www.unep.org/resources/report/global-methane-assessment-benefits-and-costs-mitigating-methane-emissions'}/>
                 <ListCard
                 title={'The Temporal and Spatial Distribution of Health, Labor, and Agriculture Benefits of Climate Change Mitigation in the US'}
-                content={<><p>Pubished in the Proceedings of the National Academy of Sciences on November 1, 2021.</p></>}
+                content={<><p>Published in the Proceedings of the National Academy of Sciences on November 1, 2021.</p></>}
                 link={'https://www.pnas.org/doi/10.1073/pnas.2104061118'}/>
               </div>
           </div>

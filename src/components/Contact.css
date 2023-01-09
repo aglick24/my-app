@@ -1,0 +1,30 @@
+.Contact {
+    background-color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.Contact .Content{
+    background-color: var(--secondary-color);
+    padding: 5%;
+}
+
+.Contact .Form{
+}
+
+
+.Contact h2 {
+    font-size: 3rem;
+    text-align: left;
+    padding-bottom: 2%;
+    color: #eee;
+}
+
+.Contact p {
+    color: #eee;
+}
+
+.Contact .Content ul {
+    color: #eee;
+    padding-left: 2%;
+}

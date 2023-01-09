@@ -3,8 +3,10 @@
   --primary-color-translucent: rgb(137, 200, 239, 0.5);
   --primary-dark: rgb(0, 45, 90);
   --primary-dark-translucent: rgb(0, 45, 90, 0.5);
-  --secondary-color: rgba(180, 215, 250);
-  --secondary-dark: rgb(57, 67, 77);
+  --secondary-color: rgb(8, 143, 46);
+  --secondary-color-translucent: rgb(8, 143, 46, 0.5);
+  --secondary-dark: rgb(20, 65, 23);
+  --secondary-dark-translucent: rgb(20, 65, 23, 0.8);
   --overlay: rgba(180, 215, 250, 0.9);
   --picture-overlay: rgba(180, 215, 250, 0.3);
   --translucent-white: rgb(255, 255, 255, 0.5);
@@ -50,7 +52,7 @@ p {
   width: 40px;
   height: 3px;
   margin: 5px auto;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 .Typewriter {

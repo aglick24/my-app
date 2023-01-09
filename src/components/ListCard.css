@@ -10,7 +10,7 @@
 }
 
 .ListCard p {
-    color: var(--secondary-dark);
+    color: var(--primary-dark);
     font-size: 1.2rem;
     margin: 12px;
 }
@@ -28,7 +28,7 @@
 
 .ListCard.Linked:hover p,
 .ListCard.Linked:hover span {
-    color: white;
+    color: #eee;
     font-size: 24px;
 }
 .ListCard .Line {
@@ -41,7 +41,6 @@
     .ListCard {
         max-width: 100%;
         margin: 1rem;
-        box-shadow: 10px 30px 15px var(--primary-color);
     }
 
     .ListCard p {

@@ -26,7 +26,8 @@
 
 .Footer li a:hover {
     padding-bottom: 12px;
-    border-bottom: 3px solid var(--secondary-color);
+    border-bottom: 3px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
 .Bottom {

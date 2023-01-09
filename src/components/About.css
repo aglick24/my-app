@@ -3,6 +3,7 @@
     margin: auto;
     padding: 8rem 1rem 0 1rem;
     width: 100%;
+    color: var(--secondary-dark);
 }
 
 .About .Container {
@@ -17,11 +18,17 @@
 
 .About img {
     margin: auto;
-    box-shadow: 15px 15px 0 var(--primary-dark-translucent);
+    box-shadow: 15px 15px 0 var(--secondary-dark-translucent);
 }
 
 .About h2 {
     font-size: 3rem;
+}
+
+.About h4 {
+    text-align: center;
+    margin: auto;
+    color: var(--secondary-color);
 }
 
 .AboutPic {
@@ -45,7 +52,7 @@
 }
 
 .About .Col-2 p, .About .Col-2 ul {
-    color: var(--primary-dark);
+    color: var(--secondary-dark);
     margin:0.5rem;
 }
 

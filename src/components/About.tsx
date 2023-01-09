@@ -13,9 +13,9 @@ const About = () => {
                     <h2>About</h2>
                     <span className='Line'></span>
                     <div className='Content'>
-                        <p>My name is Alex Glick, and I am from Manhasset, NY. I was born in Houston, TX, which I will always hold near and dear, but moved to NY at age 2 with my parents and sister.</p>
-                        <p>There are a few important things about me that I thought relevant to share:</p>
-                        <p>As an elementary school-aged child, my mind was quite oriented towards math; however, as I grew older, I became increasingly interested by history and government. In middle and high school, I became involved in politics and worked as an intern on a congressional campaign that flipped NY-11 blue in 2018 in addition to other political work.</p>
+                        <h4>Alex Glick</h4>
+                        <p>I am from Manhasset, NY, and I am now a senior at Duke, obtaining a <i>B.S.</i> in Computer Science and Public Policy.</p>
+                        <p>In middle and high school, I became involved in politics and worked as an intern on a congressional campaign that flipped NY-11 blue in 2018 in addition to other political work. By the end of high school and beginning of college, my interest grew, from CS being a prospective minor to it being my first major.</p>
                         <p>So as I moved toward college, I thought that Public Policy would be my calling, but I had an itch to get back to the computational...</p>
                     </div>
                 </div>
