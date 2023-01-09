@@ -3,7 +3,7 @@ import './Contact.css'
 import { FaCopy } from 'react-icons/fa'
 
 const Contact = () => {
-  const phone = '(516)589-0170'
+  const phone = '(516) 589-0170'
   const email = 'aglick17@icloud.com'
   return (
     <div className='Contact' id='contact'>
