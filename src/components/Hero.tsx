@@ -13,9 +13,9 @@ const Hero = () => {
 
   let buttons = <></>
   if (placeHolder)
-    buttons = <Btn content={""} to={""} color={"n"}/>;
+    buttons = <div className='Buttons'><Btn content={""} to={""} color={"n"}/></div>;
   if (present)
-    buttons = <Btn content={"Find out about me"} to={"#about"} color={"w"}/>;
+    buttons = <div className='Buttons'><Btn content={"See My Work"} to={"#work"} color={"b"}/><Btn content={"Find out about me"} to={"#about"} color={"w"}/></div>;
 
   return (
     <div className="Hero">

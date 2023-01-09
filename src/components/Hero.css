@@ -37,10 +37,15 @@
     padding: 2.5% 5%;
 }
 
+.Hero .Buttons {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 2%;
+}
+
 .Hero .Button {
     margin: 1rem 0;
     width: 300px;
-    /* background-color: var(--primary-dark); */
 }
 
 .Button {
