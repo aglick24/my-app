@@ -11,11 +11,11 @@ const Hero = () => {
   const [placeHolder, holdIt] = useState(false);
   const handleHold = () => holdIt(true);
 
-  let button = <></>
+  let buttons = <></>
   if (placeHolder)
-    button = <Btn content={""} to={""} color={"n"}/>
+    buttons = <Btn content={""} to={""} color={"n"}/>;
   if (present)
-    button = <Btn content={"Find out about me"} to={"#about"} color={"w"}/>
+    buttons = <Btn content={"Find out about me"} to={"#about"} color={"w"}/>;
 
   return (
     <div className="Hero">
@@ -43,7 +43,7 @@ const Hero = () => {
               .start()
               }}
             />
-            {button}
+            {buttons}
           </div>
         </div>
     </div>

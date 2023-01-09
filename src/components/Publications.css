@@ -1,13 +1,11 @@
 .Publications {
     width: 100%;
-    padding: 1rem 1rem 0 1rem;
-    font-family: 'Courier New', Courier, monospace;
     font-style: bold;
-    margin: 4rem auto;
+    margin: 0 auto;
 }
 
 .Publications .Container {
-    margin: 4rem auto;
+    margin: 0 auto;
     width: 90%;
     padding-bottom: 4rem 0rem;
 }
@@ -19,9 +17,6 @@
 }
 
 .Publications .Container .Content {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 10%;
     margin: 4rem 0;
 }
 
@@ -50,8 +45,7 @@
         padding: 2rem 0;
     }
 
-    .Publications .Container .Content {
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 5% 5%;
+    .Publications.Title {
+        padding-top: 0;
     }
 }

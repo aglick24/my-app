@@ -4,9 +4,9 @@
 }
 
 .Work .Container {
-    width: 1240px;
+    width: 90%;
     margin: 4rem auto;
-    padding: 4rem 0rem;
+    padding-top: 4rem;
 }
 
 .Work h2 {
@@ -15,25 +15,24 @@
 }
 
 .Work .Container .Content {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: auto auto;
     grid-gap: 10%;
-    margin: 4rem 0;
+    display: grid;
+    margin-top: 4rem;
 }
 
 @media screen and (max-width: 940px) {
 
-    .Work {
-        margin-bottom: 10rem;
-    }
-
     .Work .Container {
         width: 100%;
+        margin: 0;
     }
 
     .Work .Container .Content {
-        grid-template-columns: 1fr;
-        grid-gap: 5% 5%;
+        display: block;
     }
     
+    .Work .InfoCard {
+        margin: 20% 0;
+    }
 }
