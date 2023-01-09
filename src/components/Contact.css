@@ -11,7 +11,7 @@
 
 .Contact button {
     border: 0;
-    padding: 2%;
+    padding-left: 2%;
     background-color: var(--secondary-color);
     color: #eee;
     font-weight: bolder;
@@ -21,7 +21,6 @@
 .Contact .Form{
 }
 
-
 .Contact h2 {
     font-size: 3rem;
     text-align: left;
@@ -29,14 +28,24 @@
     color: #eee;
 }
 
-.Contact p {
+.Contact p,
+.Contact a {
     color: #eee;
+}
+
+.Contact a:hover {
+    font-size: 1.5rem;
+    border-bottom: 3px solid #eee;
 }
 
 .Contact .Content ul {
     color: #eee;
-    padding-left: 2%;
+    padding-left: 5%;
     font-weight: bold;
+}
+
+.Contact li {
+    padding: 0.5rem 0;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {

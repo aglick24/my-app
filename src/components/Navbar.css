@@ -20,6 +20,10 @@
     padding: 0 1rem;
 }
 
+.Header ul {
+    list-style-type: none;
+}
+
 .Header a {
     color: #ffffff;
 }

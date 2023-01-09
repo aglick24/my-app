@@ -14,8 +14,8 @@ const Contact = () => {
             <ul>
                 <li>{phone}<button onClick={() => {navigator.clipboard.writeText(phone);}}><FaCopy/></button></li>
                 <li>{email}<button onClick={() => {navigator.clipboard.writeText(email);}}><FaCopy/></button></li>
-                <li>Resume</li>
-                <li>Github</li>
+                <li><a href='https://drive.google.com/file/d/1NZUCyl0bxcFLoHKXu1P8gl9sxHb1osNF/view?usp=sharing' target="_blank" rel="noreferrer">Resume</a></li>
+                <li><a href='https://github.com/aglick24' target="_blank" rel="noreferrer">Github</a></li>
             </ul>
         </div>
         <div className='Form'>

@@ -30,7 +30,7 @@ const Hero = () => {
               .deleteAll()
               .pauseFor(500)
               .callFunction(handleHold)
-              .typeString("The purpose of the site is to take you on a tour through my experiences and interests,")
+              .typeString("The purpose of the site is to take you on a tour of my experiences,")
               .pauseFor(600)
               .typeString(" while also demonstrating some of my technical skills along the way.")
               .pauseFor(1000)
