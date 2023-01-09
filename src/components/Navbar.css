@@ -40,8 +40,8 @@
 
 .Header a:hover {
     padding-bottom: 12px;
-    border-bottom: 3px solid var(--primary-dark);
-    color: var(--primary-dark);
+    border-bottom: 3px solid var(--primary-color);
+    color: var(--primary-color);
     font-weight: 1000;
 }
 
@@ -54,7 +54,7 @@
 @media screen and (max-width:940px) {
     .Header {
         max-width: 100%;
-        background-color: var(--primary-color);
+        background-color: var(--secondary-dark);
     }
 
     .Header .Navbar {
@@ -74,7 +74,7 @@
         left: -100%;
         top: 90px;
         flex-direction: column;
-        background-color: var(--primary-color);
+        background-color: var(--secondary-dark);
         width: 100%;
         min-height: 20vh;
         z-index: 999;

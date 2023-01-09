@@ -1,11 +1,11 @@
 .InfoCard {
     border: 1px solid white;
-    box-shadow: 15px 40px 15px var(--secondary-dark-translucent);
+    box-shadow: 15px 40px 15px var(--primary-dark-translucent);
     padding: 1rem;
 }
 
 .InfoCard p {
-    color: var(--secondary-dark);
+    color: var(--primary-dark);
     font-size: 1rem;
     margin: 12px;
 }
@@ -13,7 +13,7 @@
 .InfoCard img {
     width: 8rem;
     height: 8rem;
-    border: 1px solid var(--secondary-dark);
+    border: 1px solid var(--primary-dark);
     border-radius: 25%;
 }
 
@@ -22,8 +22,8 @@
     border-radius: 25%;
     height: 8rem;
     width: 8rem;
-    color: var(--secondary-dark);
-    border: 1px solid var(--secondary-dark);
+    color: var(--primary-dark);
+    border: 1px solid var(--primary-dark);
     text-align: center;
 }
 
@@ -34,21 +34,21 @@
 }
 
 .InfoCard span {
-    color: var(--secondary-dark);
+    color: var(--primary-dark);
     font-size: 1.2rem;
     font-weight: 700;
 }
 
 .InfoCard.Linked:hover {
-    background-color: var(--secondary-color-translucent);
-    border: 1px solid var(--secondary-color-translucent);
+    background-color: var(--primary-color-translucent);
+    border: 1px solid var(--primary-color-translucent);
 }
 
 @media screen and (max-width: 940px) {
     .InfoCard {
         max-width: 100%;
         margin: 1rem;
-        box-shadow: 10px 30px 15px var(--secondary-dark-translucent);
+        box-shadow: 10px 30px 15px var(--primary-dark-translucent);
     }
 }
 
