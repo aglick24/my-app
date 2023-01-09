@@ -2,12 +2,12 @@
     width: 100%;
     font-style: bold;
     margin: 0 auto;
+    padding: 4rem 1rem 0 1rem;
 }
 
 .Publications .Container {
     margin: 0 auto;
     width: 90%;
-    padding: 4rem 0rem;
 }
 
 .Publications h2 {
