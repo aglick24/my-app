@@ -9,6 +9,15 @@
     padding: 5%;
 }
 
+.Contact button {
+    border: 0;
+    padding: 2%;
+    background-color: var(--secondary-color);
+    color: #eee;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
 .Contact .Form{
 }
 
@@ -27,4 +36,11 @@
 .Contact .Content ul {
     color: #eee;
     padding-left: 2%;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .Contact {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

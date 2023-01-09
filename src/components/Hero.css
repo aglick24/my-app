@@ -41,6 +41,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     padding: 2%;
+    height: 5rem;
 }
 
 .Hero .Button {

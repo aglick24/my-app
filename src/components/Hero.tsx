@@ -13,7 +13,7 @@ const Hero = () => {
 
   let buttons = <></>
   if (placeHolder)
-    buttons = <div className='Buttons'><Btn content={""} to={""} color={"n"}/></div>;
+    buttons = <div className='Buttons'></div>;
   if (present)
     buttons = <div className='Buttons'><Btn content={"See My Work"} to={"#work"} color={"b"}/><Btn content={"Find out about me"} to={"#about"} color={"w"}/></div>;
 
@@ -31,11 +31,11 @@ const Hero = () => {
               .pauseFor(500)
               .callFunction(handleHold)
               .typeString("The purpose of the site is to take you on a tour through my experiences and interests,")
-              .pauseFor(1000)
+              .pauseFor(600)
               .typeString(" while also demonstrating some of my technical skills along the way.")
               .pauseFor(1000)
-              .typeString(" This is my first React website.")
-              .pauseFor(1000)
+              .typeString(" This is my first React project.")
+              .pauseFor(600)
               .changeDelay(30)
               .typeString(" Let's get started, shall we?")
               .pauseFor(1000)
