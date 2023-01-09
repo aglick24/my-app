@@ -1,7 +1,6 @@
 import React from 'react'
 import nbaYoungBoy from './images/NBAYoungBoy.png'
 import './About.css'
-import Btn from './Btn'
 
 const About = () => {
     return (
