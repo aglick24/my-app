@@ -17,7 +17,7 @@ const Work = () => {
               title={'Apple'}
               content={
               <ul>
-                <li>Software engineeering intern on Apple TV for third-party platforms (Summer 2022)</li>
+                <li>Software engineering intern on Apple TV for third-party platforms (Summer 2022)</li>
                 <li>Worked in Typescript front-half of the stack up until integration with the back-end from the platform team</li>
                 <li>Code focused on aiding data analytics and design with a focus on user interactions and flow through the app, changing UI (similar to SwiftUI), fixing bugs, and more.</li>
                 <li>Engaged a variety of stakeholders in discussion about data relating to analytics and design</li>
@@ -53,7 +53,16 @@ const Work = () => {
                 <ul>
                   <li>Undergraduate research assistant in group focusing on climate, air quality, and policy research (since May 2020)</li>
                   <li>Population, emissions, and damages projections of different shared socioeconomic pathway models</li>
-                  <li>Co-author of <a href='#publications'>"The Temporal and Spatial Distribution of Health, Labor, and Agriculture Benefits of Climate Change Mitigation in the US" (UN Environment Programme)</a> and <a href='#publications'>"Global Methane Assessment Benefits and Costs of Mitigating Methane Emissions" (Proceedings of the National Academy of Sciences)</a></li>
+                  <li>Co-author of:
+                    <ul>
+                      <li>
+                        <a href='#publications'>"The Temporal and Spatial Distribution of Health, Labor, and Agriculture Benefits of Climate Change Mitigation in the US"</a> (UN Environment Programme)
+                      </li>
+                      <li>
+                        <a href='#publications'>"Global Methane Assessment Benefits and Costs of Mitigating Methane Emissions"</a> (Proceedings of the National Academy of Sciences)
+                      </li>
+                    </ul>
+                  </li>
                 </ul>}
               link={'https://sites.duke.edu/shindellgroup/'}/>
             </div>

@@ -27,7 +27,7 @@
     border: 1px solid var(--primary-dark-translucent);
 }
 
-.ListCard.Linked:hover p{
+.ListCard.Linked:hover p {
     color: #eee;
     font-size: 24px;
 }
