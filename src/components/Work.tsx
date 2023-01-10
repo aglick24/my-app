@@ -17,11 +17,10 @@ const Work = () => {
               title={'Apple'}
               content={
               <ul>
-                <li>Software engineering intern on Apple TV for third-party platforms (Summer 2022)</li>
-                <li>Worked in Typescript front-half of the stack up until integration with the back-end from the platform team</li>
-                <li>Code focused on aiding data analytics and design with a focus on user interactions and flow through the app, changing UI (similar to SwiftUI), fixing bugs, and more.</li>
-                <li>Engaged a variety of stakeholders in discussion about data relating to analytics and design</li>
-                <li>Presented on work to the rest of the Services organization at the end of the summer</li>
+                <li>Summer 2022</li>
+                <li>Software engineering intern on Apple TV for third-party platforms</li>
+                <li>Worked in Typescript on front half of app stack until back-end integration</li>
+                <li>Code focused on data analytics and design of user interactions and flow through the app</li>
               </ul>}
               link={'https://www.apple.com/apple-tv-app/devices/'}/>
               <InfoCard image={duke}
@@ -29,10 +28,10 @@ const Work = () => {
               title={'Duke University Department of Computer Science'}
               content={
                 <ul>
-                  <li>Undergraduate teacher's assistant for Duke's CS101 (since Fall 2021)</li>
+                  <li>Fall 2021 - present</li>
+                  <li>Undergraduate teacher's assistant for Duke's CS101</li>
                   <li>Teach Python and basic CS principles to a lab of 25 students</li>
-                  <li>Hold office hours to help students individually</li>
-                  <li>Grade labs and exams in the class</li>
+                  <li>Hold office hours to help students, grade labs and exams</li>
                 </ul>}
               link={'https://www.cs.duke.edu'}/>
               <InfoCard image={rmi}
@@ -40,10 +39,10 @@ const Work = () => {
               title={'RMI and the Nicholas School of the Environment'}
               content={
                 <ul>
-                  <li>US Program Intern at RMI through Nicholas School of the Environment's Stanback Fellowship (Summer 2021)</li>
-                  <li>Calibrated their Energy Policy Simulator and used it to model the impacts state-level climate action on emissions</li>
-                  <li>Analyzed model data to advise state government's on their climate action plans, specifically through a series of workshops with the New Mexico state government</li>
-                  <li>Conducted personal project estimating mortality due to fossil fuel-related air pollution using a database from the Center for Air, Climate, and Energy Solutions</li>
+                  <li>Summer 2021</li>
+                  <li>US Program Intern at RMI (Rocky Mountain Institute)</li>
+                  <li>Calibrated in-house Energy Policy Simulator (EPS)</li>
+                  <li>Nobel data analysis project estimating mortality due to fossil fuel-related air pollution </li>
                 </ul>}
               link={'https://rmi.org/us-program/'}/>
               <InfoCard image={<FaIcons.FaGlobeAfrica className="Icon"/>}
@@ -51,7 +50,7 @@ const Work = () => {
               title={'Shindell Research Group'}
               content={
                 <ul>
-                  <li>Undergraduate research assistant in group focusing on climate, air quality, and policy research (since May 2020)</li>
+                  <li>May 2020 - present</li>
                   <li>Population, emissions, and damages projections of different shared socioeconomic pathway models</li>
                   <li>Co-author of:
                     <ul>

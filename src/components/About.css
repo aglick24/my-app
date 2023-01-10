@@ -40,7 +40,9 @@
     flex-direction: column;
     align-items: center;
     width: 50%;
-    padding: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
 }
 
 .About .Col-2 {
