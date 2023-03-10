@@ -17,7 +17,7 @@ const Work = () => {
         title={'Spanning Labs'}
         content={
         <ul>
-          <li>Present</li>
+          <li>March 2023 - present</li>
           <li>Platform to deploy LLMs to revolutionize developer experience and sales engineering teams</li>
           <li>Full-stack software engineer</li>
           <li>Implementing user flows to store data sources for ML pipeline</li>
