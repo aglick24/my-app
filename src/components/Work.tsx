@@ -3,6 +3,7 @@ import InfoCard from './InfoCard'
 import './Work.css'
 import rmi from './images/RMI.png'
 import duke from './images/Duke.jpg'
+import spanning from './images/Spanning.png'
 import * as FaIcons from 'react-icons/fa';
 
 const Work = () => {
@@ -11,7 +12,7 @@ const Work = () => {
       <h2>My Work Experience</h2>
       <span className='Line'></span>
       <div className='Content'>
-        <InfoCard image={<FaIcons.FaApple className="Icon Apple"/>}
+        <InfoCard image={spanning}
         alt={'spanning'}
         title={'Spanning Labs'}
         content={
