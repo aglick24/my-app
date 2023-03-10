@@ -56,4 +56,12 @@
     .Footer li {
         padding: 0%;
     }
+
+    .Footer li a:hover {
+        padding-bottom: 12px;
+        border-bottom: 0;
+        color: var(--primary-color);
+        font-size: 1.5rem;
+    }
+    
 }

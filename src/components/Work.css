@@ -1,36 +1,30 @@
 .Work {
     width: 100%;
-    padding: 1rem 1rem 0 1rem;
-}
-
-.Work .Container {
-    width: 90%;
-    margin: 4rem auto;
-    padding-top: 4rem;
+    padding: 6rem 1rem 0 1rem;
+    height: 100%;
 }
 
 .Work h2 {
     font-size: 3rem;
     text-align: center;
-    color: var(--secondary-dark)
+    color: var(--secondary-dark);
 }
 
-.Work .Container .Content {
+.Work .Content {
     grid-template-columns: auto auto;
-    grid-gap: 10%;
+    gap: 4rem;
+    padding-top: 4rem;
     display: grid;
-    margin-top: 4rem;
+    width: 90%;
+    margin: 0rem auto;
 }
 
 @media screen and (max-width: 940px) {
 
-    .Work .Container {
+    .Work .Content {
+        display: block;
         width: 100%;
         margin: 0;
-    }
-
-    .Work .Container .Content {
-        display: block;
     }
     
     .Work .InfoCard {
