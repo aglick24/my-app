@@ -24,7 +24,11 @@ const Projects = () => {
                 <ListCard 
                 title={'Shindell Research Group'}
                 content={<><p>Repositories associated with my work in the Shindell Group</p><p>Population projections and shared socioeconomic pathway model data analysis</p><p>Data is not included</p></>}
-                link={'https://github.com/aglick24/rmi_health_impacts/blob/main/publichealth_databuild.py'}/>
+                link={'https://github.com/aglick24'}/>
+                <ListCard 
+                title={'CACES Mortality Estimates'}
+                content={<><p>Repository associated with my work at RMI</p><p>Mortality estimates using data from the Center for Air, Climate, and Energy Solutions and the National Emissions Inventory as a novel method</p><p>Data is included</p></>}
+                link={'https://github.com/aglick24/rmi_health_impacts'}/>
             </div>
         </div>
     </div>
