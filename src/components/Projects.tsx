@@ -24,7 +24,7 @@ const Projects = () => {
                 <ListCard 
                 title={'Shindell Research Group'}
                 content={<><p>Repositories associated with my work in the Shindell Group</p><p>Population projections and shared socioeconomic pathway model data analysis</p><p>Data is not included</p></>}
-                link={'https://github.com/aglick24'}/>
+                link={'https://github.com/aglick24/rmi_health_impacts/blob/main/publichealth_databuild.py'}/>
             </div>
         </div>
     </div>
