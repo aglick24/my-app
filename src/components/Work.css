@@ -19,6 +19,14 @@
     margin: 0rem auto;
 }
 
+.Work .FullScreen {
+    grid-template-columns: auto;
+    padding-top: 4rem;
+    display: grid;
+    width: 90%;
+    margin: auto;
+}
+
 @media screen and (max-width: 940px) {
 
     .Work .Content {
@@ -26,7 +34,7 @@
         width: 100%;
         margin: 0;
     }
-    
+
     .Work .InfoCard {
         margin: 20% 0;
     }
