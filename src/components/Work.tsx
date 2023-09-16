@@ -41,13 +41,13 @@ const Work = () => {
               <li>Worked in Typescript on front half of app stack until back-end integration</li>
               <li>Code focused on data analytics and design of user interactions and flow through the app</li>
             </ul>}
-          link={'https://www.apple.com/apple-tv-app/devices/'} />
+          link={'https://tv.apple.com'} />
         <InfoCard image={duke}
           alt={'uta'}
           title={'Duke University Department of Computer Science'}
           content={
             <ul>
-              <li>Fall 2021 - present</li>
+              <li>Fall 2021 - May 2023</li>
               <li>Undergraduate teacher's assistant for Duke's CS101</li>
               <li>Teach Python and basic CS principles to a lab of 25 students</li>
               <li>Hold office hours to help students, grade labs and exams</li>
@@ -69,7 +69,7 @@ const Work = () => {
           title={'Shindell Research Group'}
           content={
             <ul>
-              <li>May 2020 - present</li>
+              <li>May 2020 - May 2023</li>
               <li>Population, emissions, and damages projections of different shared socioeconomic pathway models</li>
               <li>Co-author of:
                 <ul>
