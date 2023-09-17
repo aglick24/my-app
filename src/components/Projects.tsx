@@ -10,8 +10,12 @@ const Projects = () => {
         <div className='Content'>
           <ListCard
             title={'Low Rank Adaptation using Less Is More for Alignment of LLaMa 2'}
-            content={<><p>I implemented adaptation for summarization tasks immediately after the release of LLaMa 2.</p><p>The data was sampled from various Hugging Face Datasets with summarization tasks.</p><p>I then massaged the outputs to be in the same style, creating heterogeneous inputs and outputs of homogenous style in accordance with the Meta paper Less Is More for Alignment.</p><p>Built with Python, Hugging Face, LangChain, and Hugging Face.</p></>}
+            content={<><p>I implemented LoRA for summarization tasks immediately after the release of LLaMa 2.</p><p>The data was sampled from various Hugging Face Datasets with summarization tasks.</p><p>I then massaged the outputs to be in the same style, creating heterogeneous inputs and outputs of homogenous style in accordance with the Meta paper Less Is More for Alignment.</p><p>Built with Python, Hugging Face, LangChain, and Hugging Face.</p></>}
             link={'https://github.com/aglick24/adaptation'} />
+          <ListCard
+            title={'Bigram Language Modeling'}
+            content={<><p>I ran experiments on bigram language modeling using a variety of block types using token cross entropy loss.</p><p>Block types: Convolutional, Causal Self Attention, Causal Convolutional Self Attention, Degenerate, Transformer along with a Decoder.</p><p>Built with PyTorch.</p></>}
+            link={'https://github.com/aglick24/language_modeling'} />
           <ListCard
             title={'Deep Q-Network for PacMan'}
             content={<><p>I created a Deep Q-Network to teach PacMan to run through his course using reinforcement learning.</p><p>I built this in a short 48 hour codesprint.</p><p>Built with PyTorch and OpenAI Gymnasium.</p></>}
