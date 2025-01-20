@@ -14,12 +14,12 @@ const Contact = () => {
             <ul>
                 <li><button onClick={() => {navigator.clipboard.writeText(phone);}}>{phone} <FaCopy/></button></li>
                 <li><button onClick={() => {navigator.clipboard.writeText(email);}}>{email} <FaCopy/></button></li>
-                <li><a href='https://drive.google.com/file/d/1NZUCyl0bxcFLoHKXu1P8gl9sxHb1osNF/view?usp=sharing' target="_blank" rel="noreferrer">Resume</a></li>
+                <li><a href='https://drive.google.com/file/d/1ggLXDRTBFk9kIFs0cMyaFBM3nXIw1wmA/view?usp=share_link' target="_blank" rel="noreferrer">Resume</a></li>
                 <li><a href='https://github.com/aglick24' target="_blank" rel="noreferrer">Github</a></li>
             </ul>
         </div>
         <div className='Form'>
-            
+
         </div>
     </div>
   )

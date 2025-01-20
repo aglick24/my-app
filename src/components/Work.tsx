@@ -4,6 +4,7 @@ import './Work.css'
 import rmi from './images/RMI.png'
 import duke from './images/Duke.jpg'
 import spanning from './images/Spanning.png'
+import palantir from './images/palantir'
 import * as FaIcons from 'react-icons/fa';
 
 const Work = () => {
@@ -11,14 +12,27 @@ const Work = () => {
     <div className='Work' id='work'>
       <h2>My Work Experience</h2>
       <span className='Line'></span>
-
-      <div className='FullScreen'>
+      <div className='Content'>
+        <InfoCard image={palantir}
+          alt={'palantir'}
+          title={'Palantir Technologies'}
+          content={
+            <ul>
+              <li>Jan 2024 - present</li>
+              <li>Leads AI initiatives for 15-person team servicing entire DOE, largely as part of $90M NNSA contract</li>
+              <li>Owns agile development of data-rich, operational applications via client iteration to decompose DOE’s key issues</li>
+              <li>Architects, implements and demonstrates production-ready, human-in-the-loop automation workflows, employing LLMs/VLMs, embedding models, entity recognition, agents, and advanced document chunking</li>
+              <li>Chosen as technical lead for rapid AI buildouts and demonstrations for high-priority USG opportunities (EPA, HHS, USDA, DIU) in partnership with CTO and Palantir’s USG leadership outside of everyday work</li>
+              <li>Developed new agentic feature with internal AIP leadership, delivering 1500-line PR outside of everyday work</li>
+              <li>Conducts decomposition interviews and recruiting for Palantir USG eng hiring and mentors other USG engineers</li>
+            </ul>}
+          link={'https://www.spanninglabs.com/'} />
         <InfoCard image={spanning}
           alt={'spanning'}
           title={'Spanning Labs'}
           content={
             <ul>
-              <li>Feb 2023 - present</li>
+              <li>Feb 2023 - Sep 2023</li>
               <li>Employee No. 8 and engineer No. 5 on team to create and maintain technical documentation using LLMs</li>
               <li>Designed and led the full-stack implementation of data and ML/LLM pipelines, contributing to powerful retrieval-augmented generation of technical documentation for a large-scale web application</li>
               <li>Managed the development and integration of UX/UI elements, REST APIs, and user metrics systems to optimize web functionality and data accessibility</li>
@@ -29,9 +43,7 @@ const Work = () => {
               <li>Worked with various technologies such as Typescript, ReactJS, Next.js, Python, PostgreSQL, Tailwind, CSS, PyTorch, REST APIs, Fast API, LangChain, Hugging Face, LLaMa 2, OpenAI, Prisma, Supabase, GCP, Tiptap (editor), Mixpanel (metrics)</li>
             </ul>}
           link={'https://www.spanninglabs.com/'} />
-      </div>
-      <div className='Content'>
-        <InfoCard image={<FaIcons.FaApple className="Icon Apple" />}
+        <InfoCard image={<FaIcons.FaApple className="Icon" />}
           alt={'apple'}
           title={'Apple'}
           content={

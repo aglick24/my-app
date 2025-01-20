@@ -9,6 +9,10 @@ const Projects = () => {
         <span className='Line'></span>
         <div className='Content'>
           <ListCard
+            title={'Pychatml'}
+            content={<><p>I implemented multiple conversion methods between different chat formats used by common LLMs at the time. These included vicuna, alpaca, llama, OpenAI, and Anthropic.</p><p>My open source contribution was a part of this larger repo, created by the folks at Radiant AI.</p><p>Built with Python.</p></>}
+            link={'https://github.com/deployradiant/pychatml'} />
+          <ListCard
             title={'Low Rank Adaptation using Less Is More for Alignment of LLaMa 2'}
             content={<><p>I implemented LoRA for summarization tasks immediately after the release of LLaMa 2.</p><p>The data was sampled from various Hugging Face Datasets with summarization tasks.</p><p>I then massaged the outputs to be in the same style, creating heterogeneous inputs and outputs of homogenous style in accordance with the Meta paper Less Is More for Alignment.</p><p>Built with Python, Hugging Face, LangChain, and Hugging Face.</p></>}
             link={'https://github.com/aglick24/adaptation'} />
