@@ -3,6 +3,7 @@
     box-shadow: 15px 40px 15px var(--primary-dark-translucent);
     padding: 1rem;
     font-weight: bold;
+    border-radius: 32px;
 }
 
 .InfoCard li {
